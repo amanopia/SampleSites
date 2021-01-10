@@ -1,0 +1,66 @@
+.box1 {
+  background-image: url('/Users/amanverma/Desktop/Practice/Road.jpg');
+  height: 770px;
+  width: auto;
+  background-size: cover;
+  background-color: transparent;
+
+
+  /* overflow: visible; */
+}
+
+/* @font-face {
+  font-family: "Bright Star";
+  src: url('https://www.dafont.com/bright-star-2.font.eot?') format('eot'),
+    url('https://www.dafont.com/bright-star-2.font.woff') format('woff'),
+    url('https://www.dafont.com/bright-star-2.font.ttf') format('truetype'),
+    url('https://www.dafont.com/bright-star-2.font.svg#svgFontName') format('svg');
+} */
+
+h1 {
+  font-family: "Druk Wide Bold", sans-seirf;
+  font-size: 6rem;
+  color: #fff;
+  line-height: 1;
+  padding: 0;
+  text-shadow: 1px 1px 30px #1a1a1a;
+}
+
+p {
+  font-family: "Cocogoose Pro Thin";
+  color: #fff;
+  font-size: 0.8rem;
+  letter-spacing: 20px;
+}
+
+a {
+  font-family: "Cocogoose Pro Thin";
+  color: #fff;
+  margin-left: 40px;
+  letter-spacing: 4px;
+  font-size: 0.8rem;
+}
+
+a:hover {
+  color: #ffd9b3;
+  transition: all 0.2s;
+}
+
+.q {
+  text-align: center;
+  position: relative;
+  top: 160px;
+}
+
+.navbar-brand {
+  font-family: "Druk Wide Bold";
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+/* Section 2 */
+/* .sec2 {
+  background-size: cover;
+  po
+  height: 100%;
+  width: 100%; */
