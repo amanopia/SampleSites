@@ -1,5 +1,5 @@
 .box1 {
-  background-image: url('/Users/amanverma/Desktop/Practice/Road.jpg');
+  background-image: url('/Users/amanverma/Desktop/WildWildWestSite/Road.jpg');
   height: 770px;
   width: auto;
   background-size: cover;
@@ -33,15 +33,15 @@ p {
   letter-spacing: 20px;
 }
 
-a {
+.references {
   font-family: "Cocogoose Pro Thin";
   color: #fff;
-  margin-left: 40px;
+  margin-left: 35px;
   letter-spacing: 4px;
   font-size: 0.8rem;
 }
 
-a:hover {
+.references:hover {
   color: #ffd9b3;
   transition: all 0.2s;
 }
@@ -64,3 +64,28 @@ a:hover {
   po
   height: 100%;
   width: 100%; */
+
+/* MIDDLE SECTION */
+#features {
+  position: relative;
+}
+.testimonial1 {
+  width: 400px;
+  margin-top: 140px;
+  margin-left: 160px;
+  margin-bottom: 140px;
+}
+
+.testimonial2 {
+  font-family: "Druk Wide Bold";
+  margin-top: 140px;
+}
+
+.test-para {
+  width: 370px;
+  font-size: 0.9rem;
+  text-align: justify;
+  font-family: "Cocogoose Pro Thin";
+  letter-spacing:normal;
+  color: black;
+}
