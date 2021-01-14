@@ -4,7 +4,6 @@
   width: auto;
   background-size: cover;
   background-color: transparent;
-  box-sizing: border-box;
 
 
   /* overflow: visible; */
@@ -154,4 +153,39 @@ p {
 
 .text {
   padding: 15%;
+}
+
+.cont {
+  padding-top: 30px;
+  width: 150px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+button {
+  position: relative;
+  margin: 0;
+  padding: 5px 12px;
+  height: 60px;
+  width: 150px;
+  outline: none;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  /* text-transform: uppercase; */
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #e3a054;
+  border: 1px solid white;
+  transition: all 0.2s;
 }
