@@ -137,4 +137,21 @@ p {
   text-align: justify;
 }
 
-That is what we have been focusing on since we opened this place back in 1990. We found this place back in 1980. One day the current owner decided to go on an expedition across the desert. After walking several miles, with his skin burning under the scorching sun, he was looking for a place to rest. Suddenly! from the corner of his eyes, he noticed a building which somehow managed to stand up to the power of nature, all alone in this wilderness. He walked upto it. On reaching it, he got a better idea of the condition the building was in. But he decided to get a shut eye for a while. Waking up after about 2 hours, he relaised that his expedition has taken a new turn and he began inspecting the building. After about half an hour or ravaging through the huge pile of broken boards, he found something which would define the building for years to come. It was the diary, in his own words, of the great Sheriff whose stories of barvery, still make up majority of the conversation of the citizens of the valley the one and only "Tony Eifler"
+  /* STORY SECTION */
+.story-text {
+  font-family: "Cocogoose Pro Thin";
+  font-size: 1rem;
+  color: black;
+  letter-spacing: normal;
+  text-align: justify;
+}
+
+.story-heading {
+  font-family: "Druk Wide Bold";
+  color: black;
+  padding-bottom: 20px;
+}
+
+.text {
+  padding: 15%;
+}
