@@ -169,7 +169,6 @@ button {
   padding: 5px 12px;
   height: 60px;
   width: 150px;
-  outline: none;
   text-decoration: none;
 
   display: flex;
@@ -177,15 +176,49 @@ button {
   align-items: center;
 
   cursor: pointer;
-  /* text-transform: uppercase; */
   background-color: #fff;
   border: 1px solid black;
   border-radius: 100px;
+  z-index: 0;
+  /* transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1); */
+  transition: all 0.2s;
+}
+button:focus {
+  outline: none;
 }
 
 button:hover {
   color: #fff;
   background-color: #e3a054;
   border: 1px solid white;
-  transition: all 0.2s;
+}
+
+/* FOOTER  */
+#footer {
+  background-color: #e3a054;
+}
+.footer-elements {
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.container-fluid {
+  text-align: center;
+}
+.social-icon{
+  top: 40px;
+  position: relative;
+  margin:10px 20px;
+
+  color: white;
+}
+.footer-elements:hover .social-icon {
+  opacity: 0.6;
+  transition: 0.2s;
+}
+.copyright {
+  position: relative;
+  padding-top: 5rem;
+  text-align: center;
+  letter-spacing: normal;
 }
