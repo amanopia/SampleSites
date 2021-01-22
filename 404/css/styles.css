@@ -1,8 +1,12 @@
 body {
   background-color: black;
 }
+
+/* 404 text */
 .head {
   font-family: "Library 3 AM";
+  /* font-family: "Druk Wide Bold"; */
+  /* font-family: "Agency FB"; */
   color: #fff;
   /* font-size: 11rem; */
   margin-bottom: 0;
@@ -22,13 +26,13 @@ body {
   margin: 0;
 
   position: absolute;
-  top: 300px;
+  top: 290px;
   left: 90px;
 }
 
 .butn {
   position: absolute;
-  top: 450px;
+  top: 500px;
   left: 90px;
 
   margin: 0;
@@ -48,7 +52,7 @@ body {
   color: #fff;
   transition: all 0.2s;
 
-  animation: Slide_Up 2.4s ease;
+  animation: slideUp 2.4s ease;
 
 }
 
@@ -67,12 +71,18 @@ button:hover {
   color: #fff;
   font-family: "nasalization";
   font-size: 9rem;
-
   position: absolute;
   top: 270px;
 }
-
-
+.nasa-image {
+  background-image: url('/Users/amanverma/Desktop/GITHUB/404/moon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size:90%;
+  background-position: center 20% ;
+  height: 600px;
+  filter: opacity(0.8);
+}
 
 .cont {
   overflow: visible;
@@ -80,20 +90,119 @@ button:hover {
 
 .inner > h1 {
   font-size: 11rem;
-  animation: Slide_Up 1.4s ease;
+  animation: slideUp 1.4s ease;
+
 }
 .inner > p {
   font-size: 2rem;
-  animation: Slide_Up 2.1s ease;
+  animation: slideUp 2.1s ease;
 }
 
-@keyframes Slide_Up {
+/* Sliding effect for 404, text and button */
+@keyframes slideUp {
   0% {
-    transform: translateY(250px);
+    transform: translateY(600px);
   }
   100% {
     transform: translateY(0);
   }
 }
 
+/* Support for all browsers: slideUp */
+@webkit-keyframes slideUp {
+  0% {
+    transform: translateY(600px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@o-keyframes slideUp {
+  0% {
+    transform: translateY(600px);
+  }
+  100% {
+    trannform: translateY(0);
+  }
+}
+
+
+@moz-keyframes slideUp {
+  0% {
+    transform: translateY(600px);
+  }
+  100% {
+    transform: translateY(0px)
+  }
+}
+
+@ms-keyframes slideUp {
+  0% {
+    transform: translateY(600px);
+  }
+  100% {
+    trannform: translateY(0);
+  }
+}
+
 /* Fade In for Nasa logo */
+.fade-in {
+  animation: fadeIn ease 2.2s;
+  -webkit-animation: fadeIn ease 2.2s;
+  -moz-animation: fadeIn ease 2.2s;
+  -o-animation: fadeIn ease 2.2s;
+  -ms-animation: fadeIn ease 2.2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Support for all browsers: fadeIn*/
+@webkit-keyframes fadeIn{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.copyright {
+  position: relative;
+  padding-top: 5rem;
+  text-align: center;
+  letter-spacing: normal;
+}
