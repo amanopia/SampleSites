@@ -3,11 +3,18 @@ h1 {
   font-size: 5rem;
   font-weight: 700;
   letter-spacing: 20px;
+  width: 60%;
 }
 p {
-  font-family: "Roboto";
-  font-size: 1rem;
+  font-family: "Raleway";
+  font-size: 1.4rem;
   font-weight: 100;
+  position: relative;
+  top: 110px;
+  left: 80px;
+  width: 60%;
+
+  animation: fadeIn 2s ease;
 
 }
 
@@ -17,16 +24,87 @@ p {
   left: 80px;
 }
 .animations {
-  animation: slideUp 0.4s ease;
+  animation: slideUp 1.6s ease;
 }
 
 @keyframes slideUp {
 
   0% {
-    transform: translateY(200px);
+    transform: translateY(600px);
+    filter: opacity(0);
   }
 
   100% {
     transform: translateY(0px);
+    filter: opacity(1);
   }
 }
+
+@keyframes fadeIn {
+
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animation-box {
+  position: relative;
+  top: 100px;
+  padding: 80px;
+}
+
+.borders {
+  border: 0.4px solid black;
+  overflow-x: hidden;
+}
+.logo-feat {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one {
+  transition: 0.4s;
+}
+.one:hover {
+  transform: translate(0, -10px);
+  cursor: pointer;
+}
+.two {
+  transition: 0.4s;
+}
+.two:hover {
+  transform: scale(2);
+  cursor: pointer;
+}
+.three-first {
+  transition: 0.4s;
+}
+.three-first:hover {
+  transform: rotateX(45deg);
+  cursor: pointer;
+}
+.three-second {
+  transition: 0.4s;
+}
+.three-second:hover {
+  transform: rotateY(45deg);
+  cursor: pointer;
+}
+.three-third {
+  transition: 0.4s;
+}
+.three-third:hover {
+  transform: rotateZ(45deg);
+  cursor: pointer;
+}
+.four {}
+.five {}
+.six {}
+.seven {}
