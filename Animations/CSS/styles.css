@@ -1,0 +1,32 @@
+h1 {
+  font-family: "Roboto";
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: 20px;
+}
+p {
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 100;
+
+}
+
+.placement {
+  position: relative;
+  top: 110px;
+  left: 80px;
+}
+.animations {
+  animation: slideUp 0.4s ease;
+}
+
+@keyframes slideUp {
+
+  0% {
+    transform: translateY(200px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
